@@ -1,7 +1,7 @@
 import argparse
 from tmdb_cli_tool.tmdb import get_now_playing, get_popular, get_top_rated, get_upcoming
 
-def main():
+def main() -> None:
     """main function to create the cli and call the fetch function by category"""
     parser = argparse.ArgumentParser(
         prog="tmdb-cli-tool",
