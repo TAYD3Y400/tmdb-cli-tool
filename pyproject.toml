@@ -1,0 +1,16 @@
+# dependencies
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# metadata
+[project]
+name = "tmdb-app"
+version = "0.0.1"
+description = "CLI application written from python for fetch data from TMDB movies information"
+readme = "README.md"
+authors = [{ name = "Taylor Hernández", email = "taylor20sep.hc@gmail.com" }]
+
+# Define the command
+[project.scripts]
+tmdb-app = "tmdb_cli_tool.cli:main"
